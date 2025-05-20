@@ -1,0 +1,148 @@
+/* Google Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli&family=Open+Sans+Condensed:wght@300&display=swap");
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+body {
+  text-align: center;
+}
+
+/* Navigation Bar */
+.navigation-bar {
+  background-color: black;
+  overflow: hidden;
+  font-family: "Jost", sans-serif;
+  height: 80px;
+  text-align: center;
+}
+
+.navigation-bar a {
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ece2c1;
+  padding: 30px 15px;
+  margin: 0 80px;
+}
+
+.navigation-bar a:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  margin: 20px;
+}
+
+.doctor-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+}
+
+.doctor-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.doctor-info h2 {
+  font-size: 14px;
+}
+
+/* Welcome Message Styles */
+.welcome {
+  position: relative;
+  width: 100%;
+  height: 90px;
+}
+
+.welcome_mssg {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 35px;
+  background: #f9f9f3;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Form Styles */
+.choice_form_box, .input-form-box {
+  width: 80%;
+  margin-top: 20px;
+  border: 3px solid #868686;
+  background: #f9f9f9;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px; /* Match padding to editRecords */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add shadow for depth */
+  border-radius: 10px; /* Round the corners */
+}
+
+.choice_form, .input-form {
+  font-family: "Muli", sans-serif;
+  font-size: 18px; /* Adjust font size for better readability */
+}
+
+.choice_form label, .input-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Input Styles */
+.input-form input[type="text"], .input-form textarea {
+  width: 100%; /* Match width to editRecords */
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Slightly round the borders */
+}
+
+.input-form input[type="text"]:focus, .input-form textarea:focus {
+  border-color: #007bff; /* Change focus border color */
+}
+
+/* Submit Button Styles */
+.choice_form input[type="submit"], .input-form input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.choice_form input[type="submit"]:hover, .input-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .choice_form_box, .input-form-box {
+    width: 95%;
+    padding: 20px;
+  }
+  
+  .choice_form, .input-form {
+    width: 100%;
+  }
+
+  .navigation-bar a {
+    padding: 20px 10px; /* Adjust padding for smaller screens */
+    margin: 0 20px; /* Adjust margin for smaller screens */
+  }
+}

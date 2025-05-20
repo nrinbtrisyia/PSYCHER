@@ -1,0 +1,96 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Questrial&display=swap");
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Jost', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Reset Password Container Styles */
+.reset-password-container {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reset-password-container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type=password] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.reset-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reset-btn:hover {
+    background-color: #4cae4c;
+}
+
+/* Retain Header Styles */
+.header {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Retain Navigation Bar Styles */
+.navigation-bar {
+    background-color: black;
+    overflow: hidden;
+    font-family: "Jost", sans-serif;
+    height: 80px;
+    text-align: center;
+}
+
+.navigation-bar a {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ece2c1;
+    padding: 30px 15px;
+    margin: 0 80px;
+}
+
+.navigation-bar a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}

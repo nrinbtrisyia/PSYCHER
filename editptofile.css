@@ -1,0 +1,198 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Questrial&display=swap");
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Jost', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Navigation Bar Styles */
+.navigation-bar {
+    background-color: black;
+    overflow: hidden;
+    font-family: "Jost", sans-serif;
+    height: 80px;
+    text-align: center;
+}
+
+.navigation-bar a {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ece2c1;
+    padding: 30px 15px;
+    margin: 0 80px;
+}
+
+.navigation-bar a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+/* Welcome Message Styles */
+.welcome {
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+
+.welcome_mssg {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 35px;
+    background: #f9f9f3;
+    text-align: center;
+    padding: 20px;
+}
+/* Profile Section Layout */
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.pi_box {
+    flex: 1; /* Allow pi_box to grow and take available space */
+    background-color: #f9f9f9;
+    padding: 40px; /* Increase the padding for the table */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Spacing between pi_box and profile picture */
+}
+
+.pi_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pi_table th, .pi_table td {
+    padding: 20px; /* Add padding */
+    border-bottom: 1px solid #ddd;
+}
+
+.pi_table th {
+    text-align: left;
+    font-weight: 600;
+    color: #007bff;
+    margin-right: 10px; /* Add right margin */
+}
+
+.pi_table td {
+    text-align: right;
+    margin-left: 10px; /* Add left margin */
+}
+
+.profile-picture {
+    width: 250px; /* Keep the width of the profile picture */
+    height: 250px; /* Keep the height of the profile picture */
+    border-radius: 50%; /* Circle shape */
+    border: 4px solid #007bff;
+    object-fit: cover; /* Ensures the image fits well in the circle */
+    margin-right: 40px; /* Add more margin to increase the separation */
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Edit Profile Section Styles */
+.edit-profile-section {
+    width: 60%; /* Increase the width */
+    margin: 20px auto; /* Center the section */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-profile-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edit-profile-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-profile-section input[type="text"],
+.edit-profile-section input[type="email"] {
+    width: 80%; /* Increase the width of the input fields */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit Button Styles */
+.edit-profile-section input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Increase the padding */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edit-profile-section input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Forgot Password Button Styles */
+.forgot-password-button {
+    display: block;
+    margin-top: 10px; /* Adjust the margin as needed */
+    text-align: center;
+}
+
+.forgot-password-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000; /* Change the background color to your preference */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.forgot-password-button a:hover {
+    background-color: #cc0000; /* Change the hover background color to your preference */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .edit-profile-section {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .edit-profile-section input[type="text"],
+    .edit-profile-section input[type="email"] {
+        width: 100%; /* Full width on smaller screens */
+    }
+}

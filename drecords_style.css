@@ -1,0 +1,191 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli&family=Open+Sans+Condensed:wght@300&display=swap");
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  text-align: center;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Doctor Info Styles */
+.doctor-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+}
+
+.doctor-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.doctor-info h2 {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Navigation Bar Styles */
+.navigation-bar {
+  background-color: black;
+  overflow: hidden;
+  font-family: "Jost", sans-serif;
+  height: 80px;
+  text-align: center;
+}
+
+.navigation-bar a {
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ece2c1;
+  padding: 30px 15px;
+  margin: 0 80px;
+}
+
+.navigation-bar a:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* Style for the search form */
+.search-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style for the search container (input field + button) */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the search input field */
+.search-input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Style for the search button */
+.search-button {
+  background-color: #007BFF; /* You can choose your preferred color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+  background-color: #0056b3; /* Darker shade of the button color on hover */
+}
+
+/* Table Styles */
+/* Table Styles */
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px auto; /* Center table horizontally */
+  font-size: 1em; /* Slightly larger font size for better visibility */
+  width: 95%; /* Increased width to make the table larger */
+  max-width: 98%; /* Maximum width close to full screen but not 100% */
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 15px 18px; /* Larger padding for more prominent cells */
+  text-align: center; /* Center text in cells */
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid black;
+}
+
+
+/* Top Image Styles */
+.top_img {
+  width: 100%;
+  background-color: #f9f9f3;
+}
+
+.top_img img {
+  width: 550px;
+  height: 80px;
+  margin: 5px 30% auto;
+}
+
+/* Success Message Styles */
+.success-message {
+  color: green;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Welcome Message Styles */
+.welcome {
+  width: 100%;
+  height: 90px;
+}
+
+.mssg {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 35px;
+  background: #f9f9f3;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Footer Styles */
+.footer {
+  margin-bottom: 80px;
+}

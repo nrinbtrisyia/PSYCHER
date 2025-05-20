@@ -1,0 +1,157 @@
+/* Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Questrial&display=swap");
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Jost', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Navigation Bar Styles */
+.navigation-bar {
+    background-color: black;
+    overflow: hidden;
+    font-family: "Jost", sans-serif;
+    height: 80px;
+    text-align: center;
+}
+
+.navigation-bar a {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ece2c1;
+    padding: 30px 15px;
+    margin: 0 80px;
+}
+
+.navigation-bar a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+/* Welcome Message Styles */
+.welcome {
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+
+.welcome_mssg {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 35px;
+    background: #f9f9f3;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Profile Section Styles */
+.profile-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-section img.profile-icon {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.profile-section p {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Centered Info Box Styles */
+.info-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-box {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.welcome_mssg {
+    margin-bottom: 20px;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.info-table th, .info-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.info-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Styles for Action Buttons */
+.action-buttons a {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.action-buttons a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Footer Styles */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .info-box {
+        width: 95%; /* Slightly wider on smaller screens for readability */
+    }
+}
+
+/* Additional Styles (if needed) */
+/* ... Add any additional styles here ... */
